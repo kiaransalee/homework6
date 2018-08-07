@@ -4,7 +4,7 @@ if (!empty ($_POST)) {
     if (!empty ($_POST['name'])) {
         $filename = md5(filter_input(INPUT_POST, 'name', FILTER_DEFAULT));
     } else {
-        echo 'Не задано название теста'. "<br>";
+        echo 'Не задано название теста' . "<br>";
         echo "<a href='http://badgerico.com/test2/admin.php'>" . 'Вернуться назад' . "</a>";
         exit;
     }
@@ -16,8 +16,7 @@ if (!empty ($_POST)) {
     } else {
         echo 'Файл не загружен';
     }
-}
-else {
+} else {
     echo 'Попробуйте еще раз';
 }
 ?>

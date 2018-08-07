@@ -33,7 +33,8 @@ if (!empty($_POST)) {
 
             <?php foreach ($question['answers'] as $answerId => $answer): ?>
                 <label>
-                    <input type="<?php echo $type; ?>" name="answer[<?php echo $questionId; ?>][]" value="<?php echo $answerId; ?>"<?php if ($m && in_array($answerId, $m)): ?> checked<?php endif; ?>>
+                    <input type="<?php echo $type; ?>" name="answer[<?php echo $questionId; ?>][]"
+                           value="<?php echo $answerId; ?>"<?php if ($m && in_array($answerId, $m)): ?> checked<?php endif; ?>>
                     <?php echo $answer['text']; ?>
                 </label>
             <?php endforeach; ?>
