@@ -1,0 +1,41 @@
+{
+"title": "Тест на знание Skyrim",
+  "questions": [
+    {
+      "question": "Кем является главный герой Skyrim?",
+      "answers": [
+        { "text": "Торговец", "correct": false },
+        { "text": "Император", "correct": false },
+        { "text": "Тюремщик", "correct": false },
+        { "text": "Довакин", "correct": true }
+      ]
+    },
+      {"question": "Куда отправляется герой после побега из Хелгена?",
+       "answers": [
+        { "text": "В Солитьюд", "correct": false },
+        { "text": "В Ривервуд", "correct": true },
+        { "text": "В Валенвуд", "correct": false },
+        { "text": "На Кудыкину гору", "correct": false }
+      ]
+    },
+    {
+      "question": "Как звучит крик Безжалостная Сила?",
+      "answers": [
+        {
+          "text": "До Ва Кин",
+          "correct": false
+        },
+        {
+          "text": "Фей Хо А",
+          "correct": false
+        },
+        {
+          "text": "Фус Ро Дах",
+          "correct": true
+        }
+      ]
+    }
+    ]
+  }
+
+    
